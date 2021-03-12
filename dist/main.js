@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://dropdown_menu/./src/index.js?");
+eval("// alert(\"js works also!\");\r\n\n\n//# sourceURL=webpack://dropdown_menu/./src/index.js?");
 
 /***/ })
 
