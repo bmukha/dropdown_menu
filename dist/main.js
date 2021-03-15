@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("// alert(\"js works also!\");\r\n\n\n//# sourceURL=webpack://dropdown_menu/./src/index.js?");
+eval("const toggleVisibility = (item) =>\r\n  !item.style.display || item.style.display === \"none\"\r\n    ? (item.style.display = \"block\")\r\n    : (item.style.display = \"none\");\r\n\r\nconst navWrapper = document.getElementById(\"nav-wrapper\");\r\nnavWrapper.addEventListener(\"click\", (event) => {\r\n  if (event.target.tagName == \"H2\") {\r\n    const parent = event.target.parentNode;\r\n    const children = parent.querySelectorAll(\".subitem\");\r\n    children.forEach((child) => toggleVisibility(child));\r\n  }\r\n});\r\n\n\n//# sourceURL=webpack://dropdown_menu/./src/index.js?");
 
 /***/ })
 

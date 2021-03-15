@@ -18,7 +18,6 @@ body {
 #nav-wrapper {
   width: 100%;
   height: fit-content;
-  background-color: yellowgreen;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 0.5rem;
@@ -31,4 +30,9 @@ body {
   height: fit-content;
   width: auto;
   /* margin: auto; */
+}
+
+.nav-item > .subitem {
+  background-color:lightgreen;
+  display: none;
 }
